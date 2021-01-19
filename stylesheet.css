@@ -1,3 +1,5 @@
+/* Creating the Navbar */
+
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -5,10 +7,7 @@
     overflow: hidden;
     
 }
-
-#navbar li {
-    float: left;
-}
+/* Styling the Navbar */
 
 #navbar a {
     display: block;
@@ -16,6 +15,18 @@
     text-align: center;
     text-decoration: none;
 }
+
+/* Positioning the elements to the left and right within hte navbar */
+
+#navbar .navbar-left {
+    float: left;
+}
+
+#navbar .navbar-right {
+    float: right;
+}
+
+
 
 #google-logo {
     display: block;
@@ -32,7 +43,8 @@
 
 .searchbar-buttons {
     display: block;
-    float:
+    text-align: center;
+    margin-top: 20px;
 }
 
 #footer {
