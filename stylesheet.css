@@ -16,7 +16,7 @@
     text-decoration: none;
 }
 
-/* Positioning the elements to the left and right within hte navbar */
+/* Positioning the elements to the left and right within the navbar */
 
 #navbar .navbar-left {
     float: left;
@@ -26,7 +26,7 @@
     float: right;
 }
 
-
+/* Positioning the logo */
 
 #google-logo {
     display: block;
@@ -36,10 +36,14 @@
     margin-bottom: 2em;
 }
 
+/* Positioning the searchbar */
+
 #google-searchbar {
     display: block;
     margin: 0 auto;
 }
+
+/* Positioning the buttons */
 
 .searchbar-buttons {
     display: block;
@@ -47,12 +51,31 @@
     margin-top: 20px;
 }
 
+/* Styling the footer and positioning it on the bottom of the page*/
+
 #footer {
     list-style-type: none;
     margin: 0;
+    width: 99%;
     padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
 }
 
-#footer li {
+#footer a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Positioning the elements to the left and right within the footer */
+
+#footer .footer-left {
     float: left;
+}
+
+#footer .footer-right {
+    float: right;
 }
