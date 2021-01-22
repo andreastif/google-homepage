@@ -1,3 +1,39 @@
+/* Creating a navbar with flexbox */
+
+.flex-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+}
+
+    /* spacing the left-portion of the navbar */
+
+    .nav-left-space {
+        padding-right: 2em;
+    }
+
+    /* spacing the right portion of the navbar */
+    .nav-right-space {
+        padding-left: 2em;
+    }
+
+    /* Removing decoration from links */
+    .flex-nav a {
+        text-decoration: none;
+        
+    }
+
+    /* Positioning the right portions of the navbar / splitting the navbar in two */
+
+    #nav-push-right {
+        display: flex;
+        margin-left: auto;
+    }
+
+
+
+
 /* Creating the Navbar */
 
 #navbar {
