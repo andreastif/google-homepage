@@ -72,12 +72,35 @@
     margin-bottom: 2em;
 }
 
-/* Positioning the searchbar */
+/* Creating and styling the searchbars different content */
 
-#google-searchbar {
-    display: block;
-    margin: 0 auto;
+#searchbar-container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
 }
+
+#left-searchbar {
+    background-color: gray;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 1em;
+}
+#center-searchbar, input[type=text]{
+    display: border-box;
+    background-color: gray;
+    padding: 1em;
+    border: none;
+    width: 25%;
+    
+}
+#right-searchbar {
+    background-color: gray;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 1em;
+}
+
 
 /* Positioning the buttons */
 
