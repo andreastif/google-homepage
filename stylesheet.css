@@ -5,6 +5,21 @@
     list-style-type: none;
     margin: 1em;
     padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    align-items: baseline;
+}
+
+/* Styling the Sign in button */
+.flex-nav button {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: #4387fd;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 2px;
 }
 
     /* spacing the left-portion of the navbar */
@@ -31,36 +46,33 @@
         margin-left: auto;
     }
 
-
-
-
-/* Creating the Navbar */
-
-#navbar {
+/* Creating the Navbar without flexbox. Since i want to use flexbox this whole section is commented out. */
+/* The purpose of keeping the code is to learn different ways for creating a navbar */
+/* #navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     
-}
+} */
 /* Styling the Navbar */
 
-#navbar a {
+/* #navbar a {
     display: block;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
-}
+} */
 
 /* Positioning the elements to the left and right within the navbar */
 
-#navbar .navbar-left {
+/* #navbar .navbar-left {
     float: left;
 }
 
 #navbar .navbar-right {
     float: right;
-}
+} */
 
 /* Positioning the logo */
 
@@ -110,9 +122,34 @@
     margin-top: 20px;
 }
 
-/* Styling the footer and positioning it on the bottom of the page*/
 
-#footer {
+/* Styling the flexbox footer, positioning the links within the containers and the footer on the page*/
+
+#flex-footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0.8em;
+    width: 99%;
+}
+
+#flex-footer-left a {
+    padding-right: 1em;
+    margin-left: 1em;
+    text-decoration: none;
+    
+}
+
+#flex-footer-right a {
+    padding-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+/* Styling the non flexbox footer and positioning it on the bottom of the page NOTE: since i want to use flexbox this whole section is commented out. */
+/* The purpose of keeping the code is to learn different ways for creating a footer */
+
+/* #footer {
     list-style-type: none;
     margin: 0;
     width: 99%;
@@ -127,14 +164,14 @@
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
-}
+} */
 
-/* Positioning the elements to the left and right within the footer */
+/* Positioning the elements to the left and right within the non flexbox footer */
 
-#footer .footer-left {
+/* #footer .footer-left {
     float: left;
 }
 
 #footer .footer-right {
     float: right;
-}
+} */
