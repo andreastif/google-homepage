@@ -1,47 +1,50 @@
 /* Creating a navbar with flexbox */
-
 .flex-nav {
     display: flex;
     list-style-type: none;
-    margin: 1em;
+    margin-top: -0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
     padding: 0;
     font-family: arial, sans-serif;
     font-size: 13px;
     align-items: baseline;
+    line-height: 20px;
 }
 
 /* Styling the Sign in button */
-.flex-nav button {
+.flex-nav #sign-in-button {
     border: 1px solid #4285f4;
     font-weight: bold;
     background: #4387fd;
     color: #fff;
     cursor: pointer;
-    padding: 0 12px;
+    padding: 0 16px;
     line-height: 28px;
     border-radius: 2px;
+    display: inline-block;
 }
 
-    /* spacing the left-portion of the navbar */
+/* Styling the Google apps link/logo */
+.flex-nav li:nth-child(5) {
+    position: relative;
+    top: 1em;
+}
+ /* spacing the left-portion of the navbar */
 
-    .nav-left-space {
-        padding-right: 2em;
+.nav-left-space {
+     padding-right: 2em;
     }
-
-    /* spacing the right portion of the navbar */
+/* spacing the right portion of the navbar */
     .nav-right-space {
-        padding-left: 2em;
+    padding-left: 2em;
     }
-
-    /* Removing decoration from links */
+/* Removing decoration from links */
     .flex-nav a {
-        text-decoration: none;
-        
+    text-decoration: none;
     }
-
-    /* Positioning the right portions of the navbar / splitting the navbar in two */
-
-    #nav-push-right {
+/* Positioning the right portions of the navbar / splitting the navbar in two */
+ #nav-push-right {
         display: flex;
         margin-left: auto;
     }

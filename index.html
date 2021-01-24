@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-<!-- Creating a navbar with Flexbox-->
+    <!-- Creating a navbar with Flexbox-->
 
-<ul class="flex-nav">
-    <li class="nav-left-space"><a href="#">About</a></li>
-    <li class="nav-left-space"><a href="#">Store</a></li>
-    <li class="nav-right-space" id="nav-push-right"><a href="#">Gmail</a></li>
-    <li class="nav-right-space"><a href="#">Images</a></li>
-    <li class="nav-right-space"><a href="#">Google apps</a></li>
-    <li class="nav-right-space"><a href="#"><button>Sign in</button></a></li>
-</ul>
+    <ul class="flex-nav">
+        <li class="nav-left-space"><a href="#">About</a></li>
+        <li class="nav-left-space"><a href="#">Store</a></li>
+        <li class="nav-right-space" id="nav-push-right"><a href="#">Gmail</a></li>
+        <li class="nav-right-space"><a href="#">Images</a></li>
+        <li class="nav-right-space"><a href="#"><img alt="Google Apps"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAATklEQVRYhe2UMQoAIAwD82IR/JRD/6iLg3TpUqjgHWQKgZsiATzKkGQuPbEPMUnLZSb2CLwv0M/gTkvsIYQfQKBcgB8ohx9AoFyAH4B/2LU//todS6NrAAAAAElFTkSuQmCC"></a>
+        </li>
+        <li class="nav-right-space"><a href="#"><button id="sign-in-button">Sign in</button></a></li>
+    </ul>
 
-<!-- Creating a navbar , this whole section is commented out-->
-<!-- The purpose of keeping the code is to learn different ways for creating a navbar (without flexbox)-->
+    <!-- Creating a navbar , this whole section is commented out-->
+    <!-- The purpose of keeping the code is to learn different ways for creating a navbar (without flexbox)-->
 
-<!-- <ul id="navbar">
+    <!-- <ul id="navbar">
     <li class="navbar-left"><a href="#">About</a></li>
     <li class="navbar-left"><a href="#">Store</a></li>
     <li class="navbar-right"><a href="#"><button>Sign in</button></a></li>
@@ -31,46 +35,51 @@
 </ul> -->
 
 
-<!-- Google logo -->
+    <!-- Google logo -->
 
-<img id="google-logo" alt="Google logo" src="https://web.archive.org/web/20191201000239im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <img id="google-logo" alt="Google logo"
+        src="https://web.archive.org/web/20191201000239im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 
-<!-- Google Searchbar -->
+    <!-- Google Searchbar -->
 
-<div id="searchbar-container">
-    <div id="left-searchbar"> <p>test</p> </div>
-    <div id="center-searchbar"> <input alt="Google searchbar" type="text"> </div>
-    <div id="right-searchbar"> <p>test</p> </div>
-</div>
-
-<!-- Searchbar buttons -->
-<div class="searchbar-buttons">
-    <button>Google Search</button>
-    <button>I'm feeling lucky</button>
-</div>
-
-<!-- Creating a footer with flexbox but without using list-items - only anchortags -->
-
-<div id="flex-footer">
-    <div id="flex-footer-left">
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
+    <div id="searchbar-container">
+        <div id="left-searchbar">
+            <p>test</p>
+        </div>
+        <div id="center-searchbar"> <input alt="Google searchbar" type="text"> </div>
+        <div id="right-searchbar">
+            <p>test</p>
+        </div>
     </div>
 
-    <div id="flex-footer-right">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
+    <!-- Searchbar buttons -->
+    <div class="searchbar-buttons">
+        <button>Google Search</button>
+        <button>I'm feeling lucky</button>
     </div>
 
-</div>
+    <!-- Creating a footer with flexbox but without using list-items - only anchortags -->
+
+    <div id="flex-footer">
+        <div id="flex-footer-left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+
+        <div id="flex-footer-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+
+    </div>
 
 
-<!-- Google non flexbox footer, commented out -->
-<!-- The purpose of keeping the code is to learn different ways for creating a navbar (without flexbox)-->
+    <!-- Google non flexbox footer, commented out -->
+    <!-- The purpose of keeping the code is to learn different ways for creating a navbar (without flexbox)-->
 
-<!-- <ul id="footer">
+    <!-- <ul id="footer">
     <li class="footer-left"><a href="#">Advertising</a></li>
     <li class="footer-left"><a href="#">Business</a></li>
     <li class="footer-left"><a href="#">How Search works</a></li>
@@ -80,4 +89,5 @@
 </ul> -->
 
 </body>
+
 </html>
