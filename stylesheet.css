@@ -1,3 +1,11 @@
+/* Removing margin and padding from the body */
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
 /* Creating and styling a navbar with flexbox and positioning it on the page*/
 .flex-nav {
     display: flex;
@@ -33,6 +41,12 @@
     border-radius: 2px;
     display: inline-block;
     font-weight: bold;
+}
+
+/* Giving the sign in button a hover effect */
+.flex-nav #sign-in-button:hover {
+    box-shadow: 0px 0.6px 0px gray ;
+    
 }
 
 /* Positioning the google apps logo */
@@ -104,7 +118,7 @@
     margin-bottom: 2em;
 }
 
-/* Creating and styling the searchbars different content */
+/* Creating and styling the searchbar's different contents */
 
 #searchbar-container {
     border: 2px solid red;
@@ -149,20 +163,44 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
-    bottom: 0.8em;
-    width: 99%;
+    bottom: 0em;
+    width: 98%;
+    height: 3%;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding-top: 0.8em;
+    padding-left: 1em;
+    padding-right: 2em;
 }
+
+/* Creating hover effects on the footer */
+
+#flex-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Removing the purple-ish color form visited links */
+
+#flex-footer a:visited {
+    color: #383b40;
+}
+
+/* Some positioning on the left hand side of the footers content */
 
 #flex-footer-left a {
-    padding-right: 1em;
+    padding-right: 0.8em;
     margin-left: 1em;
     text-decoration: none;
-    
 }
 
+
+/* Some positioning on the right hand side of the footers content */
+
 #flex-footer-right a {
-    padding-left: 1em;
-    margin-right: 1em;
+    padding-left: 0.8em;
+    margin-right: 0.8em;
     text-decoration: none;
 }
 
