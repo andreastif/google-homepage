@@ -121,30 +121,46 @@ body {
 /* Creating and styling the searchbar's different contents */
 
 #searchbar-container {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
 }
 
 #left-searchbar {
-    background-color: gray;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    padding: 1em;
+    border-left: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top-left-radius: 75%;
+    border-bottom-left-radius: 75%;
+    padding-left: 1em;
+    margin: 0;
 }
-#center-searchbar, input[type=text]{
+#center-searchbar{
     display: border-box;
-    background-color: gray;
-    padding: 1em;
-    border: none;
-    width: 25%;
-    
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-left: 0em;
+    width: 29%;
+    margin: 0;
 }
+
+#search-field, input[type=text] {
+    border: none;
+    background-color: white;
+    display: border-box;
+    width: 99%;
+    height: 90%;
+    margin: 0;
+
+}
+
 #right-searchbar {
-    background-color: gray;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    padding: 1em;
+    border-right: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top-right-radius: 75%;
+    border-bottom-right-radius: 75%;
+    padding-right: 1em;
+    margin: 0;
 }
 
 
