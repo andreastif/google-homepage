@@ -10,6 +10,10 @@ a:link {
     color: #383b40 !important;
 }
 
+/* Removing outline that can appear in Google chrome from all focused elements such as searchbar, buttons etc.*/
+body:focus {
+    outline: none;
+}
 
 /* Creating and styling a navbar with flexbox and positioning it on the page*/
 .flex-nav {
@@ -182,11 +186,6 @@ a:link {
     margin: 0;
     box-sizing: border-box;
 
-}
-
-/* Removing the black border element that is standard in chrome for focused input fields */
-input[type=text]:focus {
-    outline: none;
 }
 
 #right-searchbar {
