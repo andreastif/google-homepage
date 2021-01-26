@@ -47,6 +47,9 @@ a:link {
     font-weight: bold;
 }
 
+.flex-nav #sign-in-button:focus {
+    outline: none;
+
 /* Giving the sign in button a hover effect */
 .flex-nav #sign-in-button:hover {
     box-shadow: 0px 0.6px 0px gray ;
@@ -183,7 +186,7 @@ a:link {
 }
 
 /* Removing outline that can appear in Google chrome from all focused elements such as searchbar, buttons etc.*/
-input[type=text]:focus {
+#center-field input[type=text]:focus {
     outline: none;
 }
 
@@ -230,7 +233,7 @@ input[type=text]:focus {
 }
 
 /* Removing outline that can appear in Google chrome from all focused elements such as searchbar, buttons etc.*/
-button:focus {
+.searchbar-buttons button:focus {
     outline: none;
 }
 
