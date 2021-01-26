@@ -187,7 +187,7 @@ a:link {
 }
 
 /* Removing outline that can appear in Google chrome from all focused elements such as searchbar, buttons etc.*/
-#center-field input[type=text]:focus {
+#search-field input[type=text]:focus {
     outline: none;
 }
 
