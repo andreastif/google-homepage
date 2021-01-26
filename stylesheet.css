@@ -187,7 +187,7 @@ a:link {
 }
 
 /* Removing outline that can appear in Google chrome from all focused elements such as searchbar, buttons etc.*/
-#search-field input[type=text]:focus {
+#search-field, input[type=text]:focus {
     outline: none;
 }
 
@@ -231,6 +231,7 @@ a:link {
     box-shadow: 0px 0px 1px #474747;
     color: #262626;
     inset: initial;
+    cursor: pointer;
 }
 
 /* Removing outline that can appear in Google chrome from all focused elements such as searchbar, buttons etc.*/
