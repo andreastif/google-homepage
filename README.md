@@ -17,6 +17,7 @@ Topics read about/'skills' used
 		Visited
 		Hover
 		Active
+		Link
 	*Specificity
 
-Future improvements should include mediaqueries to make the webpage responsive for mobile units. 
+Future improvements should include mediaqueries to make the webpage responsive for mobile units but also labels, alts etc for screen readers.
