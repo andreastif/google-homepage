@@ -5,6 +5,11 @@ body {
     padding: 0 0;
 }
 
+/* Styling all unvisited links on the page */
+a:link {
+    color: #383b40;
+}
+
 
 /* Creating and styling a navbar with flexbox and positioning it on the page*/
 .flex-nav {
@@ -179,6 +184,7 @@ body {
 
 }
 
+/* Removing the black border element that is standard in chrome for focused input fields */
 input[type=text]:focus {
     outline: none;
 }
