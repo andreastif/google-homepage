@@ -132,7 +132,8 @@ body {
 }
 
 #searchbar-container:hover {
-
+    box-shadow: 0 0 5px #888888;
+    border-radius: 25px;
 }
 
 #left-searchbar {
@@ -160,7 +161,7 @@ body {
     border: none;
     background-color: white;
     width: 100%;
-    height: 90%;
+    height: 100%;
     margin: 0;
     box-sizing: border-box;
 
@@ -180,13 +181,34 @@ body {
 
 
 
-/* Positioning the buttons */
+/* Positioning, styling the buttons and creating hover effects */
 
 .searchbar-buttons {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
+
+.searchbar-buttons button {
+    display: border-box;
+    border-radius: 4px;
+    inset: unset;
+    padding: 10px 16px;
+    margin-left: 15px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: #f5f5f5;
+    color: #787878
+}
+
+.searchbar-buttons button:hover {
+    display: border-box;
+    box-shadow: 0px 0px 1px #474747;
+    color: #262626;
+    inset: initial;
+}
+
 
 
 /* Styling the flexbox footer, positioning the links within the containers and the footer on the page*/
