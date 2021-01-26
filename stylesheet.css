@@ -145,15 +145,27 @@ body {
     border-bottom-left-radius: 75%;
     padding-left: 1em;
     margin: 0;
-    width: 47.55px;
+    width: 39.55px;
 }
+
+/* inserting the image and adjusting the searchbar size according to the placeholder text and image */
+#left-searchbar img {
+    margin-top: 14px;
+    opacity: 0.5;
+}
+
+#right-searchbar p {
+    visibility: hidden;
+    font-size: 14px;
+}
+
 #center-searchbar {
 
     box-sizing: border-box;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     padding: 0 1em;
-    width: 487.2px;
+    width: 503.2px;
     margin: 0;
 }
 
@@ -176,7 +188,7 @@ body {
     border-bottom-right-radius: 75%;
     padding-right: 1em;
     margin: 0;
-    width: 47.55px;
+    width: 39.55px;
 }
 
 
