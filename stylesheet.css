@@ -49,6 +49,7 @@ a:link {
 
 .flex-nav #sign-in-button:focus {
     outline: none;
+}
 
 /* Giving the sign in button a hover effect */
 .flex-nav #sign-in-button:hover {
