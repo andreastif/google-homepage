@@ -179,6 +179,10 @@ body {
 
 }
 
+input[type=text]:focus {
+    outline: none;
+}
+
 #right-searchbar {
     box-sizing: border-box;
     border-right: 1px solid lightgray;

@@ -19,3 +19,4 @@ Topics read about/'skills' used
 		Active
 	*Specificity
 
+Future improvements should include mediaqueries to make the webpage responsive for mobile units. 
