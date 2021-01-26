@@ -7,7 +7,7 @@ body {
 
 /* Styling all unvisited links on the page */
 a:link {
-    color: #383b40;
+    color: #383b40 !important;
 }
 
 
